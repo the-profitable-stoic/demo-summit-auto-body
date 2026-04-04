@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Summit Auto Body",
+    "phone": "555-aut-r91",
+    "category": "auto-body",
+    "city": "Milwaukee",
+    "state": "WI"
+  },
+  "design": {
+    "preset": {
+      "id": "auto-body-mountain-bold",
+      "categoryGroup": "auto-body",
+      "name": "Mountain Bold",
+      "recipeFile": "auto-body/mountain-bold.astro",
+      "colors": {
+        "primary": "#1E3A8A",
+        "primaryDark": "#152961",
+        "primaryLight": "#c7cee2",
+        "secondary": "#1E40AF",
+        "accent": "#EF4444",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#1E3A8A",
+        "surface": "#F0F4F7",
+        "text": "#0F172A",
+        "textLight": "#64748B",
+        "textOnDark": "#FFFFFF",
+        "border": "#D1D5DB"
+      },
+      "typography": {
+        "headingFont": "Plus Jakarta Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "medium"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "auto-body/mountain-bold"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Milwaukee's trusted auto-body experts",
+      "heroSubline": "Honest repairs for Wisconsin's harsh winters. Serving Wauwatosa and Brookfield since 2012.",
+      "aboutTitle": "Built on Milwaukee values",
+      "aboutText": [
+        "Founded in 2012 by lifelong Milwaukee resident Jake Reynolds, Summit Auto Body grew from a one-bay shop to a 20+ team serving the metro area. We understand how Wisconsin winters punish vehicles.",
+        "We believe in transparent pricing and thorough explanations. No hidden fees, no upsells—just the right repair for your situation.",
+        "From sponsoring Bay View car shows to volunteering at winter driving safety clinics, we're invested in this community."
+      ],
+      "valueProps": [
+        {
+          "title": "Winter-ready repairs",
+          "description": "We use corrosion-resistant materials and techniques proven in Milwaukee's salty winters."
+        },
+        {
+          "title": "Local parts network",
+          "description": "Priority access to Milwaukee-area suppliers means faster turnaround on common repairs."
+        },
+        {
+          "title": "Insurance specialists",
+          "description": "Our team handles all major Wisconsin insurers to streamline claims."
+        },
+        {
+          "title": "Neighborhood knowledge",
+          "description": "We know the parking challenges in the Third Ward and potholes on Bluemound Road."
+        }
+      ],
+      "ctaHeadline": "Get your free damage assessment",
+      "ctaSubline": "Same-day estimates for Wauwatosa and Brookfield residents."
+    },
+    "services": [
+      {
+        "slug": "collision-repair",
+        "name": "Collision Repair",
+        "shortDescription": "Complete restoration after accidents, from fender benders to major impacts.",
+        "description": "Milwaukee's mix of tight city streets and highway commutes means collision damage is common. We repair everything from minor door dings on Third Ward parking jobs to deer strike damage common on Highway 45.\n\nOur frame straightening equipment handles Wisconsin's worst winter crashes. We match factory specs for European imports common in Brookfield and domestic vehicles alike. Every repair includes corrosion protection to combat road salt damage.",
+        "process": [
+          "Step 1: Free damage assessment with photos and repair options",
+          "Step 2: Disassembly and hidden damage inspection",
+          "Step 3: Frame correction (if needed) using laser measurement",
+          "Step 4: Paint matching and reassembly"
+        ],
+        "benefits": [
+          "Factory-certified techniques",
+          "Road salt-resistant undercoating",
+          "Rental car coordination",
+          "Lifetime warranty on repairs"
+        ],
+        "faq": [
+          {
+            "question": "How long do collision repairs take?",
+            "answer": "Most repairs take 3-7 days depending on parts availability. We prioritize Milwaukee-area suppliers for faster turnaround."
+          },
+          {
+            "question": "Will my insurance cover this?",
+            "answer": "We work directly with all major Wisconsin insurers. Our team handles claims paperwork and negotiations."
+          }
+        ]
+      },
+      {
+        "slug": "paintless-dent-repair",
+        "name": "Paintless Dent Repair",
+        "shortDescription": "Affordable hail damage and dent removal without repainting.",
+        "description": "Lake-effect storms dump golf ball-sized hail on Milwaukee cars several times each summer. Our PDR technicians can remove most dents while preserving your factory finish—critical for newer vehicles common in Brookfield's upscale neighborhoods.\n\nWe specialize in door dings from tight Bay View parking and shopping cart dents common at Bayshore Mall. The process takes hours instead of days, with no color matching needed. Most repairs cost 50-70% less than conventional methods.",
+        "process": [
+          "Step 1: Dent evaluation under specialized lighting",
+          "Step 2: Precision tool access behind panels",
+          "Step 3: Gradual reshaping of metal",
+          "Step 4: Final polish to restore gloss"
+        ],
+        "benefits": [
+          "Preserves factory paint",
+          "Same-day service available",
+          "No color match concerns",
+          "Eco-friendly (no paint fumes)"
+        ],
+        "faq": [
+          {
+            "question": "Can all dents be repaired this way?",
+            "answer": "PDR works best on shallow dents with intact paint. We'll advise honestly if conventional repair is needed."
+          },
+          {
+            "question": "Does it work on aluminum panels?",
+            "answer": "Yes, we have specialized tools for newer vehicles with aluminum hoods and doors."
+          }
+        ]
+      },
+      {
+        "slug": "rust-repair",
+        "name": "Rust Repair",
+        "shortDescription": "Stop Wisconsin salt damage before it spreads.",
+        "description": "Milwaukee's winter road treatment causes severe corrosion—especially on older vehicles common in Wauwatosa's historic districts. We cut out rust completely rather than covering it up, welding in new metal with proper sealing.\n\nCommon repairs include rocker panels on trucks used for plowing, wheel arches on SUVs, and trunk floors where snow accumulates. Our anti-corrosion coatings outperform dealer treatments. We also repair salt-damaged brake lines and exhaust systems.",
+        "process": [
+          "Step 1: Rust assessment with scope to check hidden areas",
+          "Step 2: Complete removal of affected metal",
+          "Step 3: Welding in replacement panels",
+          "Step 4: Three-stage corrosion protection"
+        ],
+        "benefits": [
+          "Structural integrity restored",
+          "Zinc-rich primer prevents recurrence",
+          "Color-matched exterior finish",
+          "Extended vehicle lifespan"
+        ],
+        "faq": [
+          {
+            "question": "How long will rust repairs last?",
+            "answer": "Properly done repairs typically last 5+ years. We warranty all work against recurrence."
+          },
+          {
+            "question": "Can you match my car's unusual color?",
+            "answer": "Our paint system matches 98% of factory colors, including vintage shades on classic cars."
+          }
+        ]
+      },
+      {
+        "slug": "frame-straightening",
+        "name": "Frame Straightening",
+        "shortDescription": "Precision correction for Milwaukee's worst crashes.",
+        "description": "When winter black ice sends vehicles into curbs or guardrails, proper frame alignment is critical. Our Milwaukee shop uses computerized measuring systems accurate to 1mm—essential for modern unibody vehicles.\n\nWe specialize in repairing Wisconsin's most common collision points: front-end damage from rear-end chain reactions on I-94, and side impacts from intersection slides. Proper alignment ensures your suspension wears evenly and safety systems function correctly.",
+        "process": [
+          "Step 1: Pre-repair measurement with 21-point inspection",
+          "Step 2: Gradual hydraulic correction",
+          "Step 3: Continuous measurement during pulling",
+          "Step 4: Post-repair alignment verification"
+        ],
+        "benefits": [
+          "Restores factory crash safety",
+          "Prevents uneven tire wear",
+          "Computerized precision",
+          "Includes wheel alignment check"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if my frame is bent?",
+            "answer": "Signs include doors that won't close properly, uneven tire wear, or steering that pulls after a crash."
+          },
+          {
+            "question": "Is frame damage repairable?",
+            "answer": "Most modern unibody vehicles can be safely straightened if the damage is within manufacturer tolerances."
+          }
+        ]
+      },
+      {
+        "slug": "bumper-repair",
+        "name": "Bumper Repair",
+        "description": "Milwaukee's tight parallel parking and crowded lots lead to bumper damage year-round. We repair all types from plastic covers on newer imports to chrome bumpers on classic cars.\n\nOur techniques include heat welding for plastic fractures common in cold weather, and rechroming services for vintage vehicles. We match factory textures and finishes—important for luxury vehicles in Brookfield. Most repairs cost 30-50% less than full bumper replacement.",
+        "shortDescription": "Affordable fixes for parking lot scrapes and winter bumps.",
+        "process": [
+          "Step 1: Damage assessment for repair vs replacement",
+          "Step 2: Plastic welding or metal straightening",
+          "Step 3: Texture and finish matching",
+          "Step 4: Reinforced backing for durability"
+        ],
+        "benefits": [
+          "OEM-quality results",
+          "Preserves parking sensors/camera",
+          "Faster than full replacement",
+          "Eco-friendly (less waste)"
+        ],
+        "faq": [
+          {
+            "question": "Can you repair cracked bumpers?",
+            "answer": "Yes, we use industrial plastic welders for fractures up to 12 inches long."
+          },
+          {
+            "question": "Do you work with parking sensors?",
+            "answer": "We recalibrate all factory safety systems after bumper repairs."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Mark T.",
+        "rating": 5,
+        "service": "Rust repair on 2012 F-150",
+        "text": "Summit fixed the salt damage on my truck's wheel wells perfectly. They even showed me where to apply extra wax to prevent future issues. The color match is spot-on—you'd never know there was work done.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Lisa H.",
+        "rating": 5,
+        "service": "Hail damage repair",
+        "text": "After the July hailstorm dented my Prius all over, Summit's PDR tech had it looking new again in one day. Saved me from using my insurance deductible. They pointed out two tiny dents I hadn't even noticed.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Carlos R.",
+        "rating": 5,
+        "service": "Collision repair",
+        "text": "When a plow truck slid into my parked Accord in Bay View, Summit handled everything—including dealing with the driver's insurance. The repair looks factory fresh, and they detailed the whole car afterward.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Sarah K.",
+        "rating": 5,
+        "service": "Bumper repair",
+        "text": "Fixed my scratched BMW bumper after a Third Ward parking mishap. The texture match is perfect, and they had it done in 24 hours. Cheaper than my insurance deductible would've been.",
+        "date": "2024-12-05"
+      },
+      {
+        "name": "James P.",
+        "rating": 5,
+        "service": "Frame straightening",
+        "text": "Hit a curb on Bluemound Road during an ice storm. Summit's frame machine and alignment check got my Subaru driving straight again. They explained every step clearly.",
+        "date": "2024-11-18"
+      },
+      {
+        "name": "Aisha B.",
+        "rating": 5,
+        "service": "Paintless dent repair",
+        "text": "Removed a door ding from the Bayshore parking lot without any paintwork. Can't even tell where it was. The technician showed me exactly how he did it—no pressure to upsell anything.",
+        "date": "2024-10-22"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Milwaukee Auto Body Shop | Summit Auto Body",
+        "description": "Honest auto-body repairs serving Wauwatosa and Brookfield. Specializing in Wisconsin winter damage, collision repair, and rust protection."
+      },
+      "about": {
+        "title": "About Our Milwaukee Auto Body Shop",
+        "description": "Locally owned collision center with 12 years serving Milwaukee. Winter-ready repairs with lifetime warranties on all work."
+      },
+      "services": {
+        "title": "Auto Body Services in Milwaukee | Summit Auto Body",
+        "description": "Complete collision repair, rust protection, and dent removal for Milwaukee's harsh winters. Free estimates in Wauwatosa and Brookfield."
+      },
+      "contact": {
+        "title": "Contact Milwaukee's Auto Body Experts",
+        "description": "Schedule your free damage assessment at our Milwaukee shop. Conveniently located near Wauwatosa and Brookfield."
+      },
+      "reviews": {
+        "title": "Milwaukee Auto Body Repair Reviews",
+        "description": "See why Milwaukee drivers trust Summit Auto Body for honest repairs on collision damage, rust, and winter wear."
+      },
+      "service-areas": {
+        "title": "Auto Body Service Areas Near Milwaukee",
+        "description": "Serving Wauwatosa, Brookfield, and surrounding areas with premium auto-body repairs and rust protection."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Wauwatosa",
+        "slug": "wauwatosa-wi",
+        "state": "WI",
+        "content": "Summit Auto Body proudly serves the residents of Wauwatosa, WI, providing top-quality auto-body repairs and collision services tailored to the unique needs of this historic community. With its charming 1920s-40s Tudor and Colonial homes, Wauwatosa's streets are often narrow and winding, making vehicles susceptible to dings and scrapes. Our team is well-versed in handling these common issues, ensuring your car looks as pristine as the neighborhood it calls home. Harsh winters with heavy lake-effect snow can also take a toll on your vehicle's exterior and undercarriage. Trust Summit Auto Body to restore your car after winter weather damage, using durable materials and finishes designed to withstand Milwaukee's toughest seasons.",
+        "localContext": "Wauwatosa is known for its historic architecture and tight-knit community, with tree-lined streets and a mix of residential and commercial areas.",
+        "nearbyAreas": [
+          "Milwaukee",
+          "West Allis",
+          "Brookfield"
+        ]
+      },
+      {
+        "city": "Brookfield",
+        "slug": "brookfield-wi",
+        "state": "WI",
+        "content": "Summit Auto Body is your trusted auto-repair partner in Brookfield, WI, where upscale suburban homes from the 1970s-80s reflect the community's pride in maintaining quality. Brookfield's well-maintained vehicles are a testament to its residents' high standards, and we match those expectations with our precision auto-body services. Whether it's a minor scratch from navigating the area's spacious driveways or more significant collision damage, our skilled technicians use advanced techniques to restore your vehicle to like-new condition. The harsh winters here bring heavy lake-effect snow, which can lead to road salt corrosion and winter-related damage. Our rust prevention and repair services ensure your car stays protected year-round.",
+        "localContext": "Brookfield is an affluent suburb with a focus on quality living, featuring upscale shopping centers and well-kept residential neighborhoods.",
+        "nearbyAreas": [
+          "Wauwatosa",
+          "Elm Grove",
+          "New Berlin"
+        ]
+      },
+      {
+        "city": "West Allis",
+        "slug": "west-allis-wi",
+        "state": "WI",
+        "content": "Summit Auto Body extends its expert auto-repair services to West Allis, WI, a bustling city with a mix of industrial and residential areas. Known for its strong working-class roots, West Allis residents rely on their vehicles for daily commutes and errands, making dependable auto-body care essential. Our team specializes in collision repairs, dent removal, and paint matching to keep your car looking its best, whether you're navigating the city's busy streets or parked near its historic homes. Winter weather here can be brutal, with heavy snow and ice causing damage to bumpers and panels. We offer comprehensive winter damage repairs to get your vehicle back on the road safely.",
+        "localContext": "West Allis combines a vibrant industrial history with a tight-knit community, featuring local events like the Wisconsin State Fair.",
+        "nearbyAreas": [
+          "Milwaukee",
+          "Wauwatosa",
+          "Greenfield"
+        ]
+      },
+      {
+        "city": "Greenfield",
+        "slug": "greenfield-wi",
+        "state": "WI",
+        "content": "Summit Auto Body is proud to serve Greenfield, WI, a family-friendly suburb with a mix of mid-century and modern homes. Greenfield's well-traveled roads and proximity to major highways mean vehicles here are prone to wear and tear. Our team provides everything from minor scratch repairs to full collision restoration, ensuring your car stays in top condition. The harsh winters in Greenfield bring heavy snowfall and icy roads, leading to potential damage from sliding or salted surfaces. We offer specialized services to address winter-related issues, including rustproofing and undercarriage protection.",
+        "localContext": "Greenfield offers a suburban feel with easy access to Milwaukee, featuring parks, schools, and a strong sense of community.",
+        "nearbyAreas": [
+          "West Allis",
+          "Oak Creek",
+          "Hales Corners"
+        ]
+      },
+      {
+        "city": "Oak Creek",
+        "slug": "oak-creek-wi",
+        "state": "WI",
+        "content": "Summit Auto Body provides exceptional auto-body services to Oak Creek, WI, a growing city with a mix of residential and commercial development. Oak Creek's expanding roadways and proximity to Lake Michigan mean vehicles here face unique challenges, from highway driving to exposure to lake-effect weather. Our team specializes in repairing dents, scratches, and collision damage, using high-quality materials to match Oak Creek's modern aesthetic. Winter here brings heavy snow and salt-covered roads, which can accelerate rust and corrosion. We offer protective coatings and rust repair to extend the life of your vehicle.",
+        "localContext": "Oak Creek is a rapidly developing area with a focus on sustainability, featuring lakeside parks and new residential communities.",
+        "nearbyAreas": [
+          "South Milwaukee",
+          "Franklin",
+          "Greenfield"
+        ]
+      },
+      {
+        "city": "Franklin",
+        "slug": "franklin-wi",
+        "state": "WI",
+        "content": "Summit Auto Body serves Franklin, WI, a suburban city known for its spacious properties and rural charm. Franklin's winding country roads and long driveways can lead to unique auto-body challenges, from gravel-induced chips to minor collisions. Our team is equipped to handle these issues with precision, offering paintless dent repair and custom color matching. The harsh winters here bring heavy snowfall, which can cause hidden damage beneath the surface. We provide thorough inspections and repairs to ensure your vehicle remains safe and reliable.",
+        "localContext": "Franklin blends suburban living with rural landscapes, offering large lots and a peaceful atmosphere.",
+        "nearbyAreas": [
+          "Oak Creek",
+          "Greendale",
+          "Hales Corners"
+        ]
+      },
+      {
+        "city": "Greendale",
+        "slug": "greendale-wi",
+        "state": "WI",
+        "content": "Summit Auto Body is honored to serve Greendale, WI, a planned community with historic roots and picturesque neighborhoods. Greendale's well-maintained streets and vintage charm mean residents take pride in their vehicles' appearance. Our auto-body services cater to this attention to detail, offering flawless paint jobs and dent repairs that blend seamlessly with the area's aesthetic. Winter weather here can be harsh, with snow and ice causing damage to bumpers and trim. We specialize in restoring vehicles affected by seasonal wear and tear.",
+        "localContext": "Greendale is a historic planned community with a strong sense of identity, featuring walkable streets and community events.",
+        "nearbyAreas": [
+          "Greenfield",
+          "Hales Corners",
+          "Franklin"
+        ]
+      },
+      {
+        "city": "Hales Corners",
+        "slug": "hales-corners-wi",
+        "state": "WI",
+        "content": "Summit Auto Body provides top-tier auto-body services to Hales Corners, WI, a small village with a close-knit community. Hales Corners' tree-lined streets and historic homes mean vehicles here often face tight parking and narrow roads. Our team excels in repairing scratches, dents, and collision damage, ensuring your car looks its best. The area's harsh winters bring heavy snow and ice, leading to potential undercarriage damage. We offer rust prevention and repair services to protect your investment.",
+        "localContext": "Hales Corners is a quiet, residential village with a strong community focus and historic landmarks.",
+        "nearbyAreas": [
+          "Greenfield",
+          "Greendale",
+          "Franklin"
+        ]
+      },
+      {
+        "city": "South Milwaukee",
+        "slug": "south-milwaukee-wi",
+        "state": "WI",
+        "content": "Summit Auto Body proudly serves South Milwaukee, WI, a lakeside city with a rich industrial heritage. South Milwaukee's proximity to Lake Michigan means vehicles here are exposed to lake-effect snow and salty air, which can accelerate corrosion. Our team specializes in rust repair and protective coatings to combat these challenges. Whether it's collision damage or weather-related wear, we restore your vehicle with durable, long-lasting results.",
+        "localContext": "South Milwaukee offers a mix of industrial history and lakeside living, with a strong working-class community.",
+        "nearbyAreas": [
+          "Oak Creek",
+          "Cudahy",
+          "St. Francis"
+        ]
+      },
+      {
+        "city": "Cudahy",
+        "slug": "cudahy-wi",
+        "state": "WI",
+        "content": "Summit Auto Body extends its services to Cudahy, WI, a compact city with a strong sense of community. Cudahy's dense neighborhoods and busy streets mean vehicles here are prone to minor dings and scrapes. Our team provides efficient, high-quality repairs to keep your car looking its best. Winter weather here brings heavy snow and ice, which can damage paint and trim. We offer specialized services to address these seasonal challenges.",
+        "localContext": "Cudahy is a small, tightly-knit city with a mix of residential and commercial areas, located near Lake Michigan.",
+        "nearbyAreas": [
+          "South Milwaukee",
+          "St. Francis",
+          "Oak Creek"
+        ]
+      },
+      {
+        "city": "St. Francis",
+        "slug": "st-francis-wi",
+        "state": "WI",
+        "content": "Summit Auto Body is proud to serve St. Francis, WI, a lakeside community with stunning waterfront views. St. Francis' proximity to Lake Michigan means vehicles here face unique challenges, from salty air corrosion to winter lake-effect snow. Our team specializes in rust prevention and repair, ensuring your car withstands the elements. Whether it's collision damage or weather-related wear, we provide durable, high-quality repairs tailored to this coastal environment.",
+        "localContext": "St. Francis offers scenic lakeside living with a relaxed, small-town feel and easy access to Milwaukee.",
+        "nearbyAreas": [
+          "Cudahy",
+          "South Milwaukee",
+          "Oak Creek"
+        ]
+      },
+      {
+        "city": "Elm Grove",
+        "slug": "elm-grove-wi",
+        "state": "WI",
+        "content": "Summit Auto Body provides premium auto-body services to Elm Grove, WI, an affluent village known for its elegant homes and quiet streets. Elm Grove's residents expect the best for their vehicles, and we deliver with meticulous paint matching and dent repair. The area's harsh winters bring heavy snowfall, which can lead to hidden damage. Our thorough inspections and repairs ensure your car remains in pristine condition year-round.",
+        "localContext": "Elm Grove is an upscale village with a focus on quality living, featuring historic homes and a peaceful atmosphere.",
+        "nearbyAreas": [
+          "Brookfield",
+          "Wauwatosa",
+          "New Berlin"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "collision-repair": "/images/service-collision-repair.webp",
+      "paintless-dent-repair": "/images/service-paintless-dent-repair.webp",
+      "rust-repair": "/images/service-rust-repair.webp",
+      "frame-straightening": "/images/service-frame-straightening.webp",
+      "bumper-repair": "/images/service-bumper-repair.webp"
+    },
+    "servicesResponsive": {
+      "collision-repair": {
+        "src": "/images/service-collision-repair.webp",
+        "srcset": "/images/service-collision-repair-400w.webp 400w, /images/service-collision-repair-800w.webp 800w, /images/service-collision-repair-1200w.webp 1200w, /images/service-collision-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "paintless-dent-repair": {
+        "src": "/images/service-paintless-dent-repair.webp",
+        "srcset": "/images/service-paintless-dent-repair-400w.webp 400w, /images/service-paintless-dent-repair-800w.webp 800w, /images/service-paintless-dent-repair-1200w.webp 1200w, /images/service-paintless-dent-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "rust-repair": {
+        "src": "/images/service-rust-repair.webp",
+        "srcset": "/images/service-rust-repair-400w.webp 400w, /images/service-rust-repair-800w.webp 800w, /images/service-rust-repair-1200w.webp 1200w, /images/service-rust-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "frame-straightening": {
+        "src": "/images/service-frame-straightening.webp",
+        "srcset": "/images/service-frame-straightening-400w.webp 400w, /images/service-frame-straightening-800w.webp 800w, /images/service-frame-straightening-1200w.webp 1200w, /images/service-frame-straightening.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "bumper-repair": {
+        "src": "/images/service-bumper-repair.webp",
+        "srcset": "/images/service-bumper-repair-400w.webp 400w, /images/service-bumper-repair-800w.webp 800w, /images/service-bumper-repair-1200w.webp 1200w, /images/service-bumper-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
